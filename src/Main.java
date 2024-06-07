@@ -12,24 +12,6 @@ public class Main {
         Libro libro6 = new Libro("El arte de la guerra", "Sun Tzu", 600, false);
         Libro libro7 = new Libro("El señor de los anillos", "J.R.R. Tolkien", 700, true);
 
-        Cola<Libro> filaLibros = new Cola<>();
-
-        filaLibros.agregar(libro1);
-        filaLibros.agregar(libro2);
-
-        Libro libroObtenido = filaLibros.sacar();
-
-        System.out.println(libroObtenido);
-
-        filaLibros.agregar(libroObtenido);
-
-        libroObtenido = filaLibros.sacar();
-
-        System.out.println(libroObtenido);
-
-        libroObtenido = filaLibros.sacar();
-
-        System.out.println(libroObtenido);
 
 
     }
